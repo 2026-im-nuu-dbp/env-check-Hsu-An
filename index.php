@@ -33,7 +33,7 @@ try {
         <h1>使用者列表</h1>
         <ul>
             <?php foreach ($users as $user): ?>
-                <li><?php echo $user['name']; ?> (<?php echo $user['email']; ?>)</li>
+                <li><?php echo $user['user']; ?> (<?php echo $user['email']; ?>)</li>
             <?php endforeach; ?>
         </ul>
     </div>
